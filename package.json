@@ -1,0 +1,20 @@
+{
+  "name": "plains-of-calantha",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "socket.io": "^2.1.1"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cameron Hardy",
+  "license": "ISC",
+  "description": ""
+}

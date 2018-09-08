@@ -1,0 +1,63 @@
+Banned Halfbrick Game Design Doc
+--------------------------------
+
+Original idea: https://youtu.be/t9WMNuyjm4w
+
+Core goals
+----------
+
+Massively multiplayer
+Simple to play
+Get people talking/engaged
+
+20x20 grid
+Game works best when played between a group of friends (~17 people)
+Players start as a tank on a random/chosen tile
+Players have three hearts
+Players are given an action point every day (hour? 12 hours?)
+Players may choose to spend one or more action points at any time
+One action point may be used to either move one square (8adj) or shoot once
+Players have a default range of 2 adjacent tiles
+Players may invest action points to increase their range
+Shooting another player removes one heart from that player
+Players may choose to shoot their action point to another player
+Lose all three of your hearts and you die and are added to The Jury
+Every player on The Jury votes once a day for a player they want to help
+Any player that gets at least 3 votes from The Jury gets an extra action point that day
+Last player standing wins
+
+Suggested modifications in conference talk:
+Randomness (different hit probabilities at certain ranges, etc)
+Shooting a player X number of action points grants you immunity to that person for X number of turns
+Have one person spawn as a secret enemy to everyone else
+
+
+Modifications to original idea
+------------------------------
+
+Light cyberpunk theme 
+	Obviously the game is text based so it's not overtly cyberpunk, but maybe incorporate some light worldbuilding in the characters/environment/themes/gameplay
+	Name ideas: Replicant, Off-world, Calantha, Nexus-8, Baseline, 6.10.21, KD6-3.7, Tannhäuser Gate
+	"I saw the truth on the plains of Calantha"
+ASCII text-based grid game
+Replace tanks with classes (roguelike)
+Classes could have special abilities/effects
+Classes are represented by an ASCII symbol
+Players can choose a color for their character
+Background color of player tile represents health
+Respawning (leaving the Jury and re-entering the game)
+Closed entry? (the person who creates a match can control who joins via invite links)
+Time-limited entry? (game is open for new players to join for a period of time)
+Login functionality (username/password)
+Shooting an action point to another player consumes an action point (so you require at least 2 action points to shoot someone an action point, one to be shot and one to be consumed)
+Terrain/obstacles/items/powerups
+NPCs?
+Simultaneous action (everyone submits their move in advance and then all moves are executed at one time)
+Display time until next turn in UI
+Use blockchain?
+	Create blocks where transactions are player moves
+	A single worldwide map could then be utilized, with each player generating a local view of it
+	Built-in resistance against cheating
+
+Server only keeps track of player info (position, state, stats, resources) and game state 
+Game occurs asynchronously so server must track which players may make moves
