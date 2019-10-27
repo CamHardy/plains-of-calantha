@@ -1,0 +1,21 @@
+{
+  "name": "plains-of-calantha",
+  "version": "1.0.0",
+  "description": "I saw the truth on the plains of Calantha",
+  "author": "Cam Hardy",
+  "license": "ISC",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.1"
+  }
+}

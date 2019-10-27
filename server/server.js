@@ -8,13 +8,18 @@ const SCREEN_HEIGHT = 20;
 
 const STATE = '';
 exports.STATE = STATE;
+exports.players = [];
 
 exports.init = () => {
+	// initialize the game
 	exports.STATE = 'INIT';
 
-	// init the game
+	exports.players = [];
+	console.log('Game initialized');
 };
 
-exports.addPlayer = () => {
+exports.addPlayer = (id, x, y) => {
 	// add player to game
+	exports.players.append(new Player(id, x, y));
+	console.log(`Player ${id} joined`);
 };
