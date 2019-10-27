@@ -38,7 +38,7 @@ Modifications to original idea
 Light cyberpunk theme 
 	Obviously the game is text based so it's not overtly cyberpunk, but maybe incorporate some light worldbuilding in the characters/environment/themes/gameplay
 	Name ideas: Replicant, Off-world, Calantha, Nexus-8, Baseline, 6.10.21, KD6-3.7, Tannhäuser Gate
-	"I saw the truth on the plains of Calantha"
+	"I saw the truth on the plains of Calantha" (it's FIELDS not plains)
 ASCII text-based grid game
 Replace tanks with classes (roguelike)
 Classes could have special abilities/effects
@@ -61,3 +61,16 @@ Use blockchain?
 
 Server only keeps track of player info (position, state, stats, resources) and game state 
 Game occurs asynchronously so server must track which players may make moves
+
+
+Technologies
+------------
+
+Vanilla HTML/CSS/js for front end
+Rot.js for game screen
+Node.js backend
+Express.js server
+socket.io communication
+brypt.js for authorization
+MongoDB for player database
+Nodemon for development
