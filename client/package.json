@@ -9,7 +9,7 @@
     "build": "webpack"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
