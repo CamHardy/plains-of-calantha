@@ -2,7 +2,7 @@
   "name": "plains-of-calantha",
   "version": "0.0.1",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "nodemon": "^1.18.3",
     "socket.io": "^2.1.1"
   },
